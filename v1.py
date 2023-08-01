@@ -60,6 +60,7 @@ if __name__ == "__main__":
     music_checkbox = tk.Checkbutton(window, text="Background Music", variable=music_var, command=lambda: play_background_music() if music_var.get() else stop_background_music())
     music_checkbox.grid(row=2, column=0, padx=10, pady=5)
 
+
     # Discord RPC Thread
     import threading
     rpc_thread = threading.Thread(target=update_discord_rpc)
