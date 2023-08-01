@@ -44,8 +44,9 @@ if __name__ == "__main__":
     PIDVIEW = find_minecraft_pid()
 
     window = tk.Tk()
-    window.geometry("400x300")
+    window.geometry("700x400")
     window.title("Ariza Launcher")
+
 
     window.columnconfigure(0, weight=1)
 
