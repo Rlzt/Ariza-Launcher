@@ -5,7 +5,7 @@ from pypresence import Presence
 import time
 import psutil
 
-client_id = '970520923964842004'
+client_id = 'FUUUUUUUUUUUUUUUCK'
 
 RPC = Presence(client_id)
 RPC.connect()
